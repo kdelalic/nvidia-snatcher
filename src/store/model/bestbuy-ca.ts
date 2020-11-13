@@ -115,7 +115,8 @@ export const BestBuyCa: Store = {
 			brand: 'sony',
 			model: 'ps5 digital',
 			series: 'sonyps5de',
-			url: 'https://www.bestbuy.ca/en-ca/product/playstation-5-digital-edition-console-online-only/14962184'
+			url:
+				'https://www.bestbuy.ca/en-ca/product/playstation-5-digital-edition-console-online-only/14962184'
 		}
 	],
 	name: 'bestbuy-ca',

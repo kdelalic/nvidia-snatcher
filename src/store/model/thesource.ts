@@ -17,7 +17,7 @@ export const TheSource: Store = {
 			series: 'sonyps5de',
 			url:
 				'https://www.thesource.ca/en-ca/gaming/playstation/ps5/playstation%c2%ae5-digital-edition-console/p/108090498'
-		},
+		}
 	],
 	name: 'thesource'
 };

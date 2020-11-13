@@ -2,19 +2,17 @@ import {Store} from './store';
 
 export const EBGames: Store = {
 	labels: {
-		inStock: [
-			{
-				container: '.btnAddToCart',
-				text: ['add to cart']
-			},
-		],
+		inStock: {
+			container: '.megaButton .cartAddRadio',
+			text: ['add to cart']
+		},
 		maxPrice: {
 			container: '.prodPriceCont .valuteCont .pricetext',
 			euroFormat: false
 		},
 		outOfStock: {
-			container: '.buyDisabled',
-			text: ['out of stock']
+			container: '.megaButton .buyDisabled',
+			text: ['Out of Stock']
 		}
 	},
 	links: [
@@ -31,7 +29,7 @@ export const EBGames: Store = {
 			series: 'sonyps5de',
 			url:
 				'https://www.ebgames.ca/PS5/Games/877523/playstation-5-digital-edition'
-		},
+		}
 	],
 	name: 'ebgames',
 	successStatusCodes: [[0, 399], 404]

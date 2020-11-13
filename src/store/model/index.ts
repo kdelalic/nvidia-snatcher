@@ -29,6 +29,7 @@ import {Coolmod} from './coolmod';
 import {Currys} from './currys';
 import {Cyberport} from './cyberport';
 import {Ebuyer} from './ebuyer';
+import {EBGames} from './ebgames';
 import {Evga} from './evga';
 import {EvgaEu} from './evga-eu';
 import {Galaxus} from './galaxus';
@@ -55,9 +56,11 @@ import {Saturn} from './saturn';
 import {Scan} from './scan';
 import {Store} from './store';
 import {Target} from './target';
+import {TheSource} from './thesource';
 import {TopAchat} from './topachat';
 import {Very} from './very';
 import {Walmart} from './walmart';
+import {WalmartCa} from './walmart-ca';
 import {Zotac} from './zotac';
 import {logger} from '../../logger';
 
@@ -92,6 +95,7 @@ export const storeList = new Map([
 	[Currys.name, Currys],
 	[Cyberport.name, Cyberport],
 	[Ebuyer.name, Ebuyer],
+	[EBGames.name, EBGames],
 	[Evga.name, Evga],
 	[EvgaEu.name, EvgaEu],
 	[Galaxus.name, Galaxus],
@@ -117,8 +121,10 @@ export const storeList = new Map([
 	[Saturn.name, Saturn],
 	[Scan.name, Scan],
 	[Target.name, Target],
+	[TheSource.name, TheSource],
 	[Very.name, Very],
 	[Walmart.name, Walmart],
+	[WalmartCa.name, WalmartCa],
 	[Zotac.name, Zotac],
 	[TopAchat.name, TopAchat]
 ]);
